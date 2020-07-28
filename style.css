@@ -1,0 +1,141 @@
+
+@media (min-width: 900px){
+    *{ 
+        margin: 0%; 
+        padding: 0%;
+    }
+
+    body{
+        background-color: #86c232;
+    }
+
+    .menu{ 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        height: 6vw;
+        padding: 2vw; 
+        background-color: #222629;
+    }
+
+    .titulo{ 
+        float: left;
+        font-size: 3vh;
+        color: #86c232;
+    }
+
+    .opcoes{
+        float: right;
+        text-decoration: none;
+        font-size: 1.7vw;
+        margin-top: 1.5vw;  
+        padding: 0.2vw;
+        color: #86c232;
+    }
+
+    .opcoes a{
+        margin: 2vw;
+    }
+
+    .opcoes a:hover{ 
+        color: #61892f;
+        transition: 500ms;
+    }
+
+    .conteudo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5vw;
+        text-align: justify;
+        margin-top: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw; 
+        padding: 1vw;
+    }
+    .conteudo p{
+        margin-top: 1vw;
+        color: #222629;
+    }
+
+    footer{ 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5vw;
+        background-color: #222629; 
+        color: #86c232; 
+        height: 1vw; 
+        padding: 2vw; 
+        text-align: center; 
+        margin-top: 2vw;
+    }
+}
+
+
+@media (max-width: 900px){
+
+    *{ 
+        margin: 0%; 
+        padding: 0%;
+    }
+
+    body{
+        background-color: #86c232;
+    }
+
+    .menu{ 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        position: fixed;
+        top: 0;
+        height: 8vh;
+        width: 100vw;
+        padding: 2vh; 
+        background-color: #222629;
+    }
+
+    .titulo{ 
+        float: left;
+        font-size: 1.3vh;
+        color: #86c232;
+    }
+
+    .opcoes{
+        float: left;
+        text-decoration: none;
+        font-size: 1.5vh;
+        margin-top: 1vh;  
+        padding: 0.2vw;
+        color: #86c232;
+    }
+
+    .opcoes a{
+        margin: 6vw;
+    }
+
+    .opcoes a:hover{ 
+        color: #61892f;
+        transition: 500ms;
+    }
+
+    .conteudo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vh;
+        text-align: justify;
+        margin-top: 12vh;
+        margin-left: 5vw;
+        margin-right: 5vw; 
+        padding: 1vw;
+    }
+    .conteudo p{
+        margin-top: 1vh;
+        color: #222629;
+    }
+
+    footer{ 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 1.5vh;
+        background-color: #222629; 
+        color: #86c232; 
+        height: 4vh; 
+        padding: 2vw; 
+        text-align: center; 
+        margin-top: 2vh;
+    }
+}
+
